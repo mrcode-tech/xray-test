@@ -96,6 +96,9 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.2.5</version>
                 <configuration>
+                    <systemPropertyVariables>
+                        <webdriver.chrome.driver>E:/chrome/chromedriver.exe</webdriver.chrome.driver>
+                    </systemPropertyVariables>
                     <testFailureIgnore>true</testFailureIgnore>
                     <disableXmlReport>true</disableXmlReport>
                     <useFile>false</useFile>
